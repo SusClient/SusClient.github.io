@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SusClient Installation Guide</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    h2, h3 {
+      color: #ff3b6c; /* Watermelon color */
+    }
+    ul, ol {
+      margin-top: 0;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    .note {
+      background-color: #ffe6ea; /* Light watermelon color */
+      padding: 10px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Downloading</h2>
+    <p>When you download SusClient, you can choose one of two options:</p>
+    <ul>
+      <li><strong>Release:</strong> this version is updated less frequently, but is preferred if you don’t want to update often.
+        <ul>
+          <li>You can download it on the official website;</li>
+        </ul>
+      </li>
+      <li><strong>Dev build:</strong> this version is updated frequently, can have some bugs, but often has less than the release.
+        <ul>
+          <li>You can get this version from the official website, the #dev-builds channel in the SusClient Discord, or by compiling the source from GitHub.</li>
+        </ul>
+      </li>
+    </ul>
+    <p class="note"><strong>Note:</strong> If your antivirus flags SusClient as dangerous, it is probably because it is an executable (JAR) file.
+      If you have any concerns feel free to check the source code located within this repository.</p>
+
+    <h2>Installing</h2>
+    <h3>Prerequisites</h3>
+    <p>To play Minecraft, you’ll need to have the compatible version of the JRE (Java Runtime Environment).
+      Usually Minecraft downloads it automatically, but if it doesn’t, you should get it from Adoptium.
+      The current version used by Minecraft is v17.</p>
+    <h3>Unsafe cracked launchers</h3>
+    <p>Avoid using closed source third-party launchers (TLauncher is a common example).
+      Since nobody can look at the code, the developers could insert malicious code, that could potentially harm your devices.
+      We do not provide support to cracked users in any way, as they do not legally own the game.</p>
+    <h3>Minecraft Launcher</h3>
+    <p>If you already have Fabric Loader installed, skip to step 4.</p>
+    <ol>
+      <li>Download the Fabric installer and run it.</li>
+      <li>Make sure the correct Minecraft version is selected, the path to your .minecraft folder is correct, and create profile is checked.</li>
+      <li>Click Install and then wait for the process to complete.</li>
+      <li>Open your .minecraft folder and create a folder within it called mods if it does not exist already.</li>
+      <li>Go to where you downloaded SusClient and drag the JAR file into the mods folder.
+        <p><strong>Note:</strong> If the file appears to be a zip because of WinRAR, or the icon is missing, ignore that as it is still a JAR</p>
+      </li>
+      <li>Open the Minecraft Launcher and select the Fabric profile.</li>
+      <li>That’s it, just click Launch to start up SusClient.</li>
+    </ol>
+  </div>
+</body>
+</html>
